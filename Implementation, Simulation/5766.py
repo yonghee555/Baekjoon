@@ -1,4 +1,5 @@
 # 할아버지는 유명해!
+# https://www.acmicpc.net/problem/5766
 
 while True:
     players = [0] * 10001
