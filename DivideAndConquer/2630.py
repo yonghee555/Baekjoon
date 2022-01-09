@@ -17,8 +17,8 @@ def solution(x, y, N) :
                 solution(x, y, N // 2)
                 solution(x, y + N // 2, N // 2)
                 solution(x + N // 2, y, N // 2)
-                solution(x + N// 2, y + N // 2, N // 2)
-        return
+                solution(x + N // 2, y + N // 2, N // 2)
+                return
     if color == 0 :
         result.append(0)
     else:
